@@ -15,9 +15,9 @@
     margin: 0 auto;
 }
 
-#contacts-table thead {
-    color: #FFF;
-    background-color: rgb(0, 102, 255) ;
+#contacts-table th {
+    color: #FFF !important;
+    background-color: #007bff !important;
 }
 
 .col-id {
@@ -39,7 +39,7 @@
 }
 
 .edit-icon {
-    color: rgb(0, 102, 255) ;
+    color: #007bff;
 }
 
 .delete-icon {

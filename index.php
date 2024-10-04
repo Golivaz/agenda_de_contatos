@@ -18,7 +18,7 @@ include_once("template/header.php");
                     <th scope="col">#</th>
                     <th scope="col">Nome</th>
                     <th scope="col">Telefone</th>
-                    <th scope="col">Observacoes</th>
+                    <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
