@@ -44,11 +44,6 @@ include_once("template/header.php");
     <?php endif; ?>
 </div>
 
-
-<div>
-    oi
-</div>
-
 <?php
 
 include_once("template/footer.php");
