@@ -5,13 +5,30 @@ session_start();
 include_once("conection.php");
 include_once("url.php");
 
-$contacts = [];
+if (!empty($_GET)) {
+    $id = $_GET["id"];
+}
 
-$query = "SELECT * FROM contacts";
+//Retorna o dado de um contato
+if (!empty($id)) {
 
-$stmt = $conn->prepare($query);
-$stmt->execute();
-$contacts = $stmt->fetchAll();
+    $query = "SELECT * FROM contacts WHERE id = :id";
 
+    $stmt = $conn->prepare($query);
+    $stmt->bindParam(":id", $id);
+    $stmt->execute();
+    $contact = $stmt->fetch();
+
+} else {
+
+    //Retornas todos os contatos
+    $contacts = [];
+
+    $query = "SELECT * FROM contacts";
+    $stmt = $conn->prepare($query);
+    $stmt->execute();
+    $contacts = $stmt->fetchAll();
+
+}
 
 ?>
