@@ -1,3 +1,8 @@
+<!-- 
+ Guilherme de Oliveira Rodrigues
+ goliva12@hotmail.com
+ -->
+
 <?php
 
 session_start();
