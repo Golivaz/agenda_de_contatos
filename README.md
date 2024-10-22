@@ -23,5 +23,4 @@ Bem-vindo à **Agenda de Contatos**! Este projeto é uma aplicação web simples
 
 ---
 
-## 🚀 Como Executar o Projeto
-....
+![image](https://github.com/user-attachments/assets/237a6edd-ce85-425c-a5e3-57392d3453bf)
