@@ -29,6 +29,7 @@ include_once("template/header.php");
             </thead>
             <tbody>
                 <?php foreach ($contacts as $contact): ?>
+
                     <tr>
                         <td scope="row" class="col-id"><?= $contact["id"] ?></td>
                         <td scope="row"><?= $contact["name"] ?></td>
